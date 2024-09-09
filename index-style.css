@@ -1,0 +1,360 @@
+
+body, ul, li, p{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+  color: white;
+}
+
+body{
+  background-color: rgb(64, 64, 64);
+}
+
+h1{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+li{
+  width: 130px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+img{
+  width: 295px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu li a:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.hearder{
+  background-color: rgb(255, 200, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  text-align:center;
+  padding: 20px;
+  padding-top: 30px;
+
+}
+
+.menu li{
+  margin-left: 15px;
+}
+
+.menu li a{
+  display: block;
+  padding: 12px;
+}
+
+.item{
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: black;
+  border-style: solid;
+}
+
+.much-more{
+  border-radius: 7px;
+  border: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  padding: 10px;
+  height: 300px;
+  transition: 0.3s;
+  text-align: center;
+
+}
+
+.much-more:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+
+}
+
+.much-more:active{
+  opacity: 0.1;
+}
+
+.logo{
+  width: 200px;
+  margin-right: 350px;
+}
+
+.logos{
+  width: 300px;
+  height: 210px;
+  align-self: center;
+}
+
+.title{
+  align-items: center;
+}
+
+.target{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  margin-top: 50px;
+  
+}
+
+.buttons-simpl{
+  border-radius: 7px;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  color: rgb(194, 0, 0);
+  transition: 0.2s;
+}
+
+.buttons-simpl:hover .buttons-simpl:hover{
+  background-color: #FFF7AD;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.buttons-simpl:active{
+  opacity: 0.1;
+}
+
+.body-clash{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+
+}
+
+.food-eco{
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: #FFA9F9;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: rgb(194, 0, 0);
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.boxes-eco{
+  border-radius: 7px;
+  margin-top: 10px;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  background-color: #FFA9F9;
+  color: rgb(194, 0, 0);
+  transition: 0.2s;
+  padding-left: 7px;
+}
+
+.contratar-eco{
+  margin-top: 30px;
+  height: 40px;
+  width: 140px;
+  background-color: transparent;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  color: rgb(194, 0, 0);
+  transition: 0.4s;
+  font-size: medium;
+}
+
+.contratar-eco:hover{
+  background-color: #FFA9F9;
+  border: none;
+  color: rgb(194, 0, 0);
+  cursor: pointer;
+}
+
+.food-first-class{
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: #7ED957;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: #8C52FF;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.boxes-first-class{
+  border-radius: 7px;
+  margin-top: 10px;
+  border: #5CE1E6;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #7ED957;
+  color: #8C52FF;
+  transition: 0.2s;
+  padding-left: 7px;
+}
+
+.contratar-first-class{
+  margin-top: 30px;
+  height: 40px;
+  width: 140px;
+  background-color: transparent;
+  border: #8C52FF;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  color: #8C52FF;
+  font-size: medium;
+  transition: 0.4s;
+}
+
+.contratar-first-class:hover{
+  background-color: #8C52FF;
+  border: none;
+  color: #5CE1E6;
+  cursor: pointer;
+}
+
+.food-michelin{
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: #A6A6A6;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.boxes-michelin{
+  border-radius: 7px;
+  margin-top: 10px;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  color: rgb(194, 0, 0);
+  transition: 0.2s;
+  padding-left: 7px;
+}
+
+.food-michelin-prime{
+  min-width: 250px;
+  max-width: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: gold;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: bisque;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.boxes-michelin-prime{
+  border-radius: 7px;
+  margin-top: 10px;
+  border: gold;
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  color: black;
+  transition: 0.2s;
+  padding-left: 7px;
+}
+
+.contratar-michelin{
+  margin-top: 30px;
+  height: 40px;
+  width: 140px;
+  background-color: transparent;
+  border: rgb(194, 0, 0);
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  color: rgb(194, 0, 0);
+  font-size: medium;
+  transition: 0.4s;
+}
+
+.contratar-michelin:hover{
+  background-color: rgb(194, 0, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.rodape{
+  margin-top: 50px;
+  text-align: center;
+  background-color: #444444;
+  color: white;
+}
